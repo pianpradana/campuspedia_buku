@@ -35,6 +35,8 @@
     <th>Judul Buku</th>
     <th>Nomor ISBN</th>
     <th>Nama Penulis</th>
+    <th>Timestamp</th>
+
   </tr>
 
 
@@ -44,6 +46,8 @@
     <td>{{ $data->title }}</td>
     <td>{{ $data->code }}</td>
     <td>{{ $data->author }}</td>
+    <td>{{ $data->created_at }}</td>
+
   </tr>
   
   @endforeach
